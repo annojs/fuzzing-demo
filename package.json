@@ -1,0 +1,14 @@
+{
+    "name": "fuzzing-demo",
+    "private": true,
+    "description": "This example shows how to use fuzz functions",
+    "author": "Juho Vepsalainen <bebraw@gmail.com>",
+    "version": "0.1.0",
+
+    "dependencies": {
+        "annofuzz": "0.1.3",
+        "annois": "0.2.0",
+        "annotate": "0.6.7",
+        "tap-parser": "0.0.2"
+    }
+}
