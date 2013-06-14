@@ -9,3 +9,7 @@ We cannot prove that our functions are correct but at least this way of testing 
 Annotating functions makes it possible to generate documentation so its usefulness goes beyond just fuzzing. And of course you get runtime errors in case you try to invoke a function in a way that is not valid.
 
 There is some performance overhead. I have not measured it but I guess you should not use these sort of techniques for performance critical code. There are possibly ways to get the best of both worlds. Perhaps it would be possible to transform the code into a "production" form that uses traditional branching and skips creating additional functions and checks.
+
+## LICENSE
+
+MIT. See LICENSE for more information.
